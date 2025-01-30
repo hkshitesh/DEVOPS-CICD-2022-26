@@ -43,6 +43,13 @@ pipeline
 				echo 'Successfully Build'
 			}			
 		}
+		stage('Final Stage')
+		{
+			steps
+			{
+				echo 'Final Stage'
+			}			
+		}
 	
 	}
 }

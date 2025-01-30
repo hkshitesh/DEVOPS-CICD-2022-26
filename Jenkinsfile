@@ -50,6 +50,13 @@ pipeline
 				echo 'Final Stage'
 			}			
 		}
+		stage('Super Final Stage')
+		{
+			steps
+			{
+				echo 'Super Final Stage'
+			}			
+		}
 	
 	}
 }

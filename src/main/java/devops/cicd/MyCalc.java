@@ -17,6 +17,10 @@ public class MyCalc {
 	{
 		return a/b;
 	}
+	public void greetingdev()
+	{
+		System.out.println("This is Dev Branch");
+	}
 
 	public static void main(String[] args) {
 
